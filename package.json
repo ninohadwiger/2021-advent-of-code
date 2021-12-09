@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start:watch": "nodemon",
-    "start:dev": "ts-node index.ts 1",
-    "start:day01": "ts-node ./day-01/src/day-01.ts",
+    "start": "ts-node index.ts",
     "test": "jest"
   },
   "devDependencies": {
