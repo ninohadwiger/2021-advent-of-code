@@ -16,9 +16,6 @@
   
 ### Installation
 
-Clone the repo and install the dependencies.
-
-
 1. Clone the repository
     ```text
     git clone https://github.com/ninohadwiger/2021-advent-of-code.git
@@ -31,8 +28,16 @@ Clone the repo and install the dependencies.
    
 ### Usage
 
-To run the application run the following
+To run the application run the following command
 
 ```text
 npm start
+```
+
+### Testing
+
+To execute all tests run the following command 
+
+```text
+npm run test
 ```
