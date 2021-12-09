@@ -1,5 +1,5 @@
 {
-  "name": "2021-ccc",
+  "name": "2021-advent-of-code",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -137,5 +137,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Solutions for Advent of Code 2021"
 }

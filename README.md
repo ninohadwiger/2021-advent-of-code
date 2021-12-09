@@ -4,6 +4,7 @@
 
 * [Day 1: Sonar Sweep](./day-01)
 * [Day 2: Dive!](./day-02)
+* [Day 3: Binary Diagnostic](./day-03)
 
 ## Getting Started
 
