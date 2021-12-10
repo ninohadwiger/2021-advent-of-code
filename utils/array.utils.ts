@@ -34,4 +34,11 @@ export class ArrayUtils {
         return Array.from(Array(height), _ => Array(width).fill(filler));
     }
 
+    static createAndFillArray<T>(length: number, filler: T): T[] {
+        return new Array(length).fill(filler);
+    }
+
+    // reducers
+    static sum = (prev: number, curr: number) => prev + curr;
+
 }

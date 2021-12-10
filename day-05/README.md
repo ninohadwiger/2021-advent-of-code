@@ -33,16 +33,16 @@ For now, only consider horizontal and vertical lines: lines where either `x1 = x
 So, the horizontal and vertical lines from the above list would produce the following diagram:
 
 ```text
-.......1..
-..1....1..
-..1....1..
-.......1..
-.112111211
-..........
-..........
-..........
-..........
-222111....
+. . . . . . . 1 . .
+. . 1 . . . . 1 . .
+. . 1 . . . . 1 . .
+. . . . . . . 1 . .
+. 1 1 2 1 1 1 2 1 1
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+2 2 2 1 1 1 . . . .
 ```
 
 In this diagram, the top left corner is `0,0` and the bottom right corner is `9,9`. Each position is shown as the number
@@ -70,16 +70,16 @@ vertical, or a diagonal line at exactly 45 degrees. In other words:
 Considering all lines from the above example would now produce the following diagram:
 
 ```text
-1.1....11.
-.111...2..
-..2.1.111.
-...1.2.2..
-.112313211
-...1.2....
-..1...1...
-.1.....1..
-1.......1.
-222111....
+1 . 1 . . . . 1 1 .
+. 1 1 1 . . . 2 . .
+. . 2 . 1 . 1 1 1 .
+. . . 1 . 2 . 2 . .
+. 1 1 2 3 1 3 2 1 1
+. . . 1 . 2 . . . .
+. . 1 . . . 1 . . .
+. 1 . . . . . 1 . .
+1 . . . . . . . 1 .
+2 2 2 1 1 1 . . . .
 ```
 
 You still need to determine the number of points where at least two lines overlap. In the above example, this is still
