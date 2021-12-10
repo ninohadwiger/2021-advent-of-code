@@ -5,6 +5,8 @@
 * [Day 1: Sonar Sweep](./day-01)
 * [Day 2: Dive!](./day-02)
 * [Day 3: Binary Diagnostic](./day-03)
+* [Day 4: Giant Squid](./day-04)
+* [Day 5: Hydrothermal Venture](./day-05)
 
 ## Getting Started
 
