@@ -48,7 +48,7 @@ prompt([
         const inputFile = `${assetFolder}/data.in`;
         const lines = FileUtils.getLinesOfFile(inputFile);
 
-        callback(lines, days);
+        callback(lines, day);
     }
 });
 
