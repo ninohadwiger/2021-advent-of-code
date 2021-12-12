@@ -194,31 +194,16 @@ export function main(lines: string[], day: number): void {
 
     let entries: NoteEntry[];
 
-    console.log(`--- Day ${day}: The Treachery of Whales ---`)
+    console.log(`--- Day ${day}: Seven Segment Search ---`)
     console.log();
 
     entries = parse(lines);
-    let result = part1(entries);
-    console.log("  > Total fuel consumption:  ", result);
+    let [result, ms] = TimeUtils.measure(part1, entries);
+    console.log("  > Unique number of segments:    ", result, " [", ms, "ms]");
 
     entries = parse(lines);
-    let [result3, ms3] = TimeUtils.measure(part2, entries);
-    console.log("  > Total fuel consumption (optimized):    ", result3, " [", ms3, "ms]");
+    let [result2, ms2] = TimeUtils.measure(part2, entries);
+    console.log("  > Sum of output values:    ", result2, " [", ms2, "ms]");
 
     console.log();
 }
-
-// 1 -> ab
-// 2 ->
-// 3 ->
-// 4 -> eafb
-// 5 ->
-// 6 ->
-// 7 -> dab
-// 8 -> acedgfb
-// 9 ->
-
-
-// c    d
-// cd g b
-// cagedb
