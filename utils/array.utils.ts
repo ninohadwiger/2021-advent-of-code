@@ -40,5 +40,6 @@ export class ArrayUtils {
 
     // reducers
     static sum = (prev: number, curr: number) => prev + curr;
+    static max = (max: number, curr: number) => Math.max(max, curr);
 
 }
