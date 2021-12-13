@@ -10,6 +10,7 @@
 * [Day 6: Lanternfish](./day-06)
 * [Day 7: The Treachery of Whales](./day-07)
 * [Day 8: Seven Segment Search](./day-08)
+* [Day 9: Smoke Basin](./day-09)
 
 ## Getting Started
 
