@@ -11,6 +11,7 @@
 * [Day 7: The Treachery of Whales](./day-07)
 * [Day 8: Seven Segment Search](./day-08)
 * [Day 9: Smoke Basin](./day-09)
+* [Day 10: Syntax Scoring](./day-10)
 
 ## Getting Started
 
