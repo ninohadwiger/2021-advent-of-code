@@ -12,6 +12,9 @@
 * [Day 8: Seven Segment Search](./day-08)
 * [Day 9: Smoke Basin](./day-09)
 * [Day 10: Syntax Scoring](./day-10)
+* Day 11: Dumbo Octopus
+* Day 12: Passage Pathing
+* [Day 13: Transparent Origami](./day-13)
 
 ## Getting Started
 
